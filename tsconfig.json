@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "build",
+    "lib": ["es2018", "DOM"],
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "core/*": ["./src/core/*"]
+    }
+  },
+  "include": ["src/**/*.ts"]
+}
